@@ -1,1 +1,58 @@
 /* You can add global styles to this file, and also import other style files */
+
+@font-face {
+    font-family: 'typewriter-thin';
+    src: url('./assets/fonts/jmh_typewriter/JMH\ Typewriter-Thin.ttf');
+}
+
+@font-face {
+    font-family: 'typewriter-black';
+    src: url('./assets/fonts/jmh_typewriter/JMH\ Typewriter-Black.ttf');
+}
+
+@font-face {
+    font-family: 'typewriter-bold';
+    src: url('./assets/fonts/jmh_typewriter/JMH\ Typewriter-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'typewriter';
+    src: url('./assets/fonts/jmh_typewriter/JMH\ Typewriter.ttf');
+}
+
+@font-face {
+    font-family: 'old-typewriter';
+    src: url('./assets/fonts/oldnewspapertypes/OldNewspaperTypes.ttf');
+}
+
+body{
+    font-family: 'typewriter-black';
+}
+
+span{
+    font-family: 'typewriter';
+    color:rgb(223, 223, 223)
+}
+
+p{
+    font-family: 'typewriter-black';
+}
+
+button{
+    font-family: 'typewriter-black' !important;
+}
+
+.btn-danger{
+    background-color: rgb(255, 122, 122) !important;
+    color:black !important
+}
+
+.btn-warning{
+    background-color: rgb(245, 204, 115) !important;
+}
+
+.btn-primary{
+    background-color: rgb(79, 160, 83) !important;
+    border-color: rgb(40, 119, 44) !important;
+    color:black !important
+}
