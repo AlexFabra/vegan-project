@@ -24,3 +24,21 @@
   .option:hover{
     background-color: rgba(0, 0, 0, 0.8); /* Negro con 50% de opacidad */
   }
+
+  .fade-in {
+    opacity: 0.3; /* Comienza con una opacidad de 0 para que el elemento esté oculto */
+    transition: opacity 0.5s ease-in-out; /* Definir la transición de opacidad */
+  }
+
+  .fade-in:hover {
+    opacity: 1;
+  }
+
+//   .fade-in {
+//     background-color: rgba(0, 0, 0, 0.3); /* Comienza con una opacidad de 0 para que el elemento esté oculto */
+//     transition: background-color 0.5s ease-in-out; /* Definir la transición de opacidad */
+//   }
+
+//   .fade-in:hover {
+//     background-color: rgba(0, 0, 0, 0.5); /* Comienza con una opacidad de 0 para que el elemento esté oculto */
+//   }

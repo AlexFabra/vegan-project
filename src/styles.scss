@@ -43,16 +43,19 @@ button{
 }
 
 .btn-danger{
-    background-color: rgb(255, 122, 122) !important;
-    color:black !important
+    background-color: rgba(0, 0, 0,0.5) !important;
+    border-color: rgb(0, 0, 0) !important;
+    color:rgb(211, 211, 211) !important
 }
 
 .btn-warning{
-    background-color: rgb(245, 204, 115) !important;
+    background-color: rgba(0, 0, 0,0.5) !important;
+    border-color: rgb(0, 0, 0) !important;
+    color:rgb(211, 211, 211) !important;
 }
 
 .btn-primary{
-    background-color: rgb(79, 160, 83) !important;
-    border-color: rgb(40, 119, 44) !important;
-    color:black !important
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    border-color: rgb(0, 0, 0) !important;
+    color:rgb(255, 255, 255) !important
 }

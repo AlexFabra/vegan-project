@@ -40,7 +40,7 @@ export class TextChooseComponent implements OnInit, AfterViewInit{
       strings: [ '¿qué haces?'],
       typeSpeed: 70,
       showCursor:false,
-      onComplete: that.animateAnswer1
+      onStop: that.animateAnswer1
     })
   }
 
@@ -64,7 +64,7 @@ export class TextChooseComponent implements OnInit, AfterViewInit{
 
   animateAnswer3(){
     this.typed = new Typed('#writeText5', {
-      strings: [ 'Te unes a ellos y aprovechas esos privilegios sin darle muchas vueltas.'],
+      strings: [ 'Te unes a ellos y aprovechas esos privilegios sin darle muchas vueltas. Aunque no está bien, nadie te juzgará.'],
       typeSpeed: 10,
       showCursor:false
     })
